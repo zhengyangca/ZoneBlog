@@ -22,6 +22,7 @@ if (module.hot) {
         render(
             <AppContainer>
                 <NewRoot store={newStore} history={newHistory} />
+                Hello
             </AppContainer>,
             document.getElementById('root')
         );
